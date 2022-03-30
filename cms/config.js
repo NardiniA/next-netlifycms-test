@@ -3,7 +3,7 @@ export default {
   backend: {
     name: "github",
     repo: "nardinia/next-netlifycms-test",
-    branch: "master",
+    branch: "main",
   },
   media_folder: "public/images",
   public_folder: "images",
