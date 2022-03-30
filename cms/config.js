@@ -13,7 +13,7 @@ export default {
       label: "Posts",
       folder: "content/posts",
       create: true,
-      identifier_field: name,
+      identifier_field: "name",
       fields: [
         {
           label: "Post Title",
