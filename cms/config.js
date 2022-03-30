@@ -5,6 +5,9 @@ export default {
     repo: "nardinia/next-netlifycms-test",
     branch: "main",
   },
+  editor: {
+      preview: false,
+  },
   media_folder: "public/images",
   public_folder: "images",
   collections: [
@@ -13,11 +16,10 @@ export default {
       label: "Posts",
       folder: "content/posts",
       create: true,
-      identifier_field: "name",
       fields: [
         {
-          label: "Post Title",
-          name: "post_title",
+          label: "Title",
+          name: "title",
           widget: "string",
         },
         {
