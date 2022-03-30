@@ -11,7 +11,9 @@ export default {
     {
       name: "posts",
       label: "Posts",
-      folder: "posts",
+      folder: "content/posts",
+      create: true,
+      identifier_field: name,
       fields: [
         {
           label: "Post Title",
@@ -21,7 +23,7 @@ export default {
         {
           label: "Date",
           name: "date",
-          widget: "date",
+          widget: "datetime",
         },
         {
           label: "Body",
